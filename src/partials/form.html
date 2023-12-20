@@ -1,6 +1,6 @@
 <form  class="form" method="POST">
     <fieldset class="form__design">
-        <legend class="form__design--tittle"> Diseña
+        <legend class="form__design--title"> Diseña
             <i class="fa-solid fa-chevron-down"></i>
         </legend>
             <h4>Colores</h4>
@@ -18,7 +18,7 @@
         </label>
     </fieldset>
     <fieldset class="form__fill">
-    <legend class="form__fill--tittle">Rellena<i class="fa-solid fa-chevron-down"></i></legend>
+    <legend class="form__fill--title">Rellena<i class="fa-solid fa-chevron-down"></i></legend>
         <label for="name">Nombre completo
             <input id="name" type="text"
             name="name" placeholder="Ej: Sally Hill">
@@ -57,12 +57,17 @@
 
     </fieldset>
     <fieldset class="form__share">
-        <legend class="form__share--tittle"><i class="fa-solid fa-share-nodes"></i>Comparte<i class="fa-solid fa-chevron-down"></i></legend>
+        <legend class="form__share--title">
+            <div><i class="fa-solid fa-share-nodes share__icon"></i> Comparte 
+            </div>
+            <div class="arrow">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </legend>
         <button class="button">
-            <i class="fa-light fa-address-card"></i>
-            <p>crear tarjeta </p>
+            <i class="fa-solid fa-address-card card__icon"></i> Crear tarjeta
         </button>
-        <div></div>
+        <div class="line"></div>
     </fieldset>
 
 </form>

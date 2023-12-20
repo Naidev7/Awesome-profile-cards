@@ -1,7 +1,18 @@
 .form{
     margin:2% ; 
+    
 }
 
 .button{
     background-color:$color-dull-orange ;
+    color: $color-white-two;
+    text-transform: uppercase;
+    font-family: $font-open;
+    font-size: 1.8rem;
+    border: transparent;
+    border-radius: 10px;
+    margin: 18px;
+    padding: 10px 12px;
+
 }
+
