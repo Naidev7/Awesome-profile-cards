@@ -1,73 +1,103 @@
-<form  class="form" method="POST">
-    <fieldset class="form__design">
-        <legend class="form__design--title"> Diseña
-            <i class="fa-solid fa-chevron-down"></i>
-        </legend>
-            <h4>Colores</h4>
-        <label for="colors1">
-            <input id="colors1" type="radio" value="opcion1"
-            name="colors">
-        </label>
-        <label for="colors2">
-            <input id="colors2" type="radio" value="opcion2"
-            name="colors">
-        </label>
-        <label for="colors3">
-            <input id="colors3" type="radio" value="opcion3"
-            name="colors">
-        </label>
-    </fieldset>
-    <fieldset class="form__fill">
-    <legend class="form__fill--title">Rellena<i class="fa-solid fa-chevron-down"></i></legend>
-        <label for="name">Nombre completo
-            <input id="name" type="text"
-            name="name" placeholder="Ej: Sally Hill">
-        </label>
+<form class="form" method="POST">
+  <fieldset class="form__design">
+    <legend class="form__design--title">
+      <i class="fa-regular fa-object-ungroup design__icon"></i>
+      <p class="design__text">Diseña</p>
+      <div class="arrow"><i class="fa-solid fa-chevron-down "></i></div>
+    </legend>
+    <div class="design__colors">
+        <h4 class="design__colors--h4">Colores</h4>
+        <div class="design__colors--radio">
+            <label for="colors1">
+                <input class="design__input" id="colors1" type="radio" value="opcion1" name="colors" /> 
+                <img class="design__img" src="/images/paleta1.png" alt="paleta1">
+              </label>
+              <label for="colors2">
+                <input class="design__input" id="colors2" type="radio" value="opcion2" name="colors" />
+                <img  class="design__img" src="/images/paleta2.png" alt="paleta2">
+              </label>
+              <label for="colors3">
+                <input class="design__input" id="colors3" type="radio" value="opcion3" name="colors" />
+                <img class="design__img" src="/images/paleta3.png" alt="paleta3">
+              </label>
+        </div>
+    </div>
+  </fieldset>
+  <fieldset class="form__fill">
+    <legend class="form__fill--title">
+      Rellena<i class="fa-solid fa-chevron-down"></i>
+    </legend>
+    <label for="name"
+      >Nombre completo
+      <input id="name" type="text" name="name" placeholder="Ej: Sally Hill" />
+    </label>
 
-        <label for="possition">Puesto
-            <input id="possition" type="text"
-            name="possition" placeholder="Ej: Front-end unicorn">
-        </label>
+    <label for="possition"
+      >Puesto
+      <input
+        id="possition"
+        type="text"
+        name="possition"
+        placeholder="Ej: Front-end unicorn"
+      />
+    </label>
 
-        <label for="profileImg">Imagen de perfil
-            <input id="profileImg" type="file" value="profileImg"
-            name="profileImg"> 
-            <div class="tinyImg"></div>
-        </label>
+    <label for="profileImg"
+      >Imagen de perfil
+      <input id="profileImg" type="file" value="profileImg" name="profileImg" />
+      <div class="tinyImg"></div>
+    </label>
 
-        <label for="email">Email
-            <input id="email" type="email"
-            name="email" placeholder="Ej: sally-hill@gmail.com">
-        </label>
+    <label for="email"
+      >Email
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Ej: sally-hill@gmail.com"
+      />
+    </label>
 
-        <label for="phone">Teléfono
-            <input id="phone" type="tel"
-            name="phone" placeholder="Ej: 555-55-55-55">
-        </label>
+    <label for="phone"
+      >Teléfono
+      <input
+        id="phone"
+        type="tel"
+        name="phone"
+        placeholder="Ej: 555-55-55-55"
+      />
+    </label>
 
-        <label for="linkedin">LinkedIn
-            <input id="linkedin" type="text"
-            name="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
-        </label>
+    <label for="linkedin"
+      >LinkedIn
+      <input
+        id="linkedin"
+        type="text"
+        name="linkedin"
+        placeholder="Ej: linkedin.com/in/sally.hill"
+      />
+    </label>
 
-        <label for="github">GitHub
-            <input id="github" type="text"
-            name="github" placeholder="Ej: @sally-hill">
-        </label>
-
-    </fieldset>
-    <fieldset class="form__share">
-        <legend class="form__share--title">
-            <div><i class="fa-solid fa-share-nodes share__icon"></i> Comparte 
-            </div>
-            <div class="arrow">
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-        </legend>
-        <button class="button">
-            <i class="fa-solid fa-address-card card__icon"></i> Crear tarjeta
-        </button>
-        <div class="line"></div>
-    </fieldset>
-
+    <label for="github"
+      >GitHub
+      <input
+        id="github"
+        type="text"
+        name="github"
+        placeholder="Ej: @sally-hill"
+      />
+    </label>
+  </fieldset>
+  <fieldset class="form__share">
+    <legend class="form__share--title">
+      <div><i class="fa-solid fa-share-nodes share__icon"></i> Comparte</div>
+      <div class="arrow">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </legend>
+    <button class="button">
+      <i class="fa-solid fa-address-card card__icon"></i> Crear tarjeta
+    </button>
+    <div class="line"></div>
+  </fieldset>
 </form>
