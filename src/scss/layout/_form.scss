@@ -1,12 +1,57 @@
 .form{
     margin:2% ; 
-    &
 }
 
 
 
+.form__share {
+    border: transparent;
 
+}
+
+.form__share--title {
+    font-family: $font-open;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: $color-gunmetal;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 95vw;
+    
+    }
+
+    .arrow {
+        text-align: end;
+    }
+
+
+.share__icon {
+    color: $color-dull-orange;
+    
+}
+
+.card__icon {
+    color: $color-dull-orange;
+    background-color: $color-white-two;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 4px;
+    
+    
+}
 
 .button{
     background-color:$color-dull-orange ;
+    color: $color-white-two;
+    text-transform: uppercase;
+    font-family: $font-open;
+    font-size: 1.8rem;
+    border: transparent;
+    border-radius: 10px;
+    margin: 18px;
+    padding: 10px 12px;
+
 }
+
