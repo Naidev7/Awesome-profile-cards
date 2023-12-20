@@ -9,12 +9,12 @@
         justify-content: space-between;
         margin: 0px 40px;
     }
-}
-.footerText {
-    font-family: $font-open;
-    color: $color-brownish-grey;
-}
-.footerImg {
-    width: 100px;
-    height: 40px;
+    &__text {
+        font-family: $font-open;
+        color: $color-brownish-grey;
+    }
+    &__img {
+        width: 100px;
+        height: 40px;
+    }
 }
