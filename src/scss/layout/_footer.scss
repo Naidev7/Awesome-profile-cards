@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 40px;
+    }
+    &__text {
+        font-family: $font-open;
+        color: $color-brownish-grey;
+    }
+    &__img {
+        width: 100px;
+        height: 40px;
+    }
+}
