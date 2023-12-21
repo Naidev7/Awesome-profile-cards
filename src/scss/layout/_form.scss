@@ -1,3 +1,5 @@
+//DESIGN
+
 .form {
   margin: 2%;
   & .form__design {
@@ -5,7 +7,7 @@
     border-right: transparent;
     border-top: transparent;
     border-color:$color-white-two ;
-    width: 280px;
+    // width: 280px;
     padding:27px 0 30px 0 ;
     align-items: center;
   }
@@ -39,9 +41,46 @@
     }
   }
 
-.form__share {
-  border: transparent;
+//FILL
+.form__section {
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-color:$color-white-two;
 }
+
+// .form__fill {
+//   border-left: transparent;
+//   border-right: transparent;
+//   border-top: transparent;
+//   border-color:$color-white-two;
+// }
+
+.form__fill--title {
+  font-family: $font-open;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: $color-gunmetal;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 95vw;
+}
+
+.fill__icon {
+  color: $color-dull-orange;
+}
+
+
+
+//SHARE
+// .form__share {
+//   border-left: transparent;
+//   border-right: transparent;
+//   border-top: transparent;
+//   border-color:$color-white-two ;
+// }
 
 .form__share--title {
   font-family: $font-open;
