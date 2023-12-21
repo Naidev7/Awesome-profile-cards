@@ -1,0 +1,110 @@
+.section-card {
+    background-color: $color-silver;
+    width: 320px;
+    height: 500px;
+    
+    
+    
+}
+
+.card-reset {
+   
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px $color-black;
+    
+
+    
+}
+
+
+.reset-text  {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.reset-icon {
+    color:$color-black;    
+    
+    
+}
+
+.reset-botton {
+ border: none;
+ background-color:$color-silver;
+
+
+
+}
+
+
+
+.details-card {
+  width: 250px;
+  height: 350px;
+  border: solid 1px $color-black;
+  margin: 50px 30px 30px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:5px;
+}
+
+
+.card-img {
+    /*width: 180px;
+    height: 130px;*/
+    width: 100%;
+}
+
+.list-icons {   
+    list-style: none;
+    display: flex; 
+    justify-content:left;
+    gap: 20px;
+    padding-left:20px; 
+}
+.icon {
+    display: flex;
+    justify-content:space-around;
+    color: $color-dark-green-blue;
+    padding: 5px;
+    
+
+}
+
+.card-title {
+    color: $color-dark-green-blue;
+    font-family: $font-montse ;
+    font-weight: bolder;
+   
+    
+}
+
+.card-job {
+    color:$color-gunmetal;
+    font-weight: lighter;
+}
+
+
+.box-icon {
+    width: 25px;
+    height: 25px;
+    border: solid 1px $color-hospital-green; 
+    border-radius: 50%;
+    gap: 10px;
+
+    
+}
+
+
+.card-text {
+    border-left: solid 5px $color-dark-green-blue;
+    padding-left: 5px;
+}
+
