@@ -1,35 +1,66 @@
-.form{
-    margin:2% ; 
-}
-
-
-
-.form__share {
-    border: transparent;
-
-}
-
-.form__share--title {
+.form {
+  margin: 2%;
+  & .form__design {
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-color:$color-white-two ;
+    width: 280px;
+    padding:27px 0 30px 0 ;
+    align-items: center;
+  }
+  &__design--title {
     font-family: $font-open;
     font-weight: bold;
     font-size: 1.8rem;
     color: $color-gunmetal;
     text-transform: uppercase;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    width: 95vw;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    & .design__icon {
+      color: $color-dull-orange;
     }
-
-    .arrow {
-        text-align: end;
+  }
+}
+.design__colors {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 22px;
+    & .design__colors--h4 {
+      font-family: $font-open;
+      font-size: 14px;
+      color: $color-gunmetal;
+      text-transform: uppercase;
     }
+    & .design__colors--radio {
+      display: flex;
+      flex-direction: column;
+      gap:20px ;
+    }
+  }
 
+.form__share {
+  border: transparent;
+}
+
+.form__share--title {
+  font-family: $font-open;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: $color-gunmetal;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 95vw;
+}
+
+.arrow {
+  text-align: end;
+}
 
 .share__icon {
-    color: $color-dull-orange;
-    
+  color: $color-dull-orange;
 }
 
 .card__icon {
@@ -38,20 +69,16 @@
     border: 1px solid white;
     border-radius: 3px;
     margin: 4px;
-    
-    
 }
 
-.button{
-    background-color:$color-dull-orange ;
-    color: $color-white-two;
-    text-transform: uppercase;
-    font-family: $font-open;
-    font-size: 1.8rem;
-    border: transparent;
-    border-radius: 10px;
-    margin: 18px;
-    padding: 10px 12px;
-
+.button {
+  background-color: $color-dull-orange;
+  color: $color-white-two;
+  text-transform: uppercase;
+  font-family: $font-open;
+  font-size: 1.8rem;
+  border: transparent;
+  border-radius: 10px;
+  margin: 18px;
+  padding: 10px 12px;
 }
-
