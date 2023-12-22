@@ -1,29 +1,39 @@
-//DESIGN
+//COMÚN
 
 .form {
   margin: 2%;
-  & .form__design {
+  &__section {
     border-left: transparent;
     border-right: transparent;
     border-top: transparent;
-    border-color:$color-white-two ;
-    // width: 280px;
+    border-color:$color-white-two;
     padding:27px 0 30px 0 ;
     align-items: center;
+    width: 90vw;
+  
+  
   }
-  &__design--title {
-    font-family: $font-open;
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: $color-gunmetal;
-    text-transform: uppercase;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    & .design__icon {
+  &__section--title {
+  font-family: $font-open;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: $color-gunmetal;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 95vw;
+    & .icon1 {
       color: $color-dull-orange;
+    }
+    & .arrow {
+      text-align: end;
     }
   }
 }
+
+//DESIGN
+
 .design__colors {
     display: flex;
     justify-content: space-around;
@@ -42,74 +52,27 @@
   }
 
 //FILL
-.form__section {
-  border-left: transparent;
-  border-right: transparent;
-  border-top: transparent;
-  border-color:$color-white-two;
-}
 
-// Esta es la clase que he cambiado por form__fill y form__share, que podríamos cambiar también por form__design
-// .form__fill {
-//   border-left: transparent;
-//   border-right: transparent;
-//   border-top: transparent;
-//   border-color:$color-white-two;
-// }
-
-.form__fill--title {
+.label {
+  display: flex;
+  flex-direction: column;
   font-family: $font-open;
-  font-weight: bold;
-  font-size: 1.8rem;
-  color: $color-gunmetal;
-  text-transform: uppercase;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 95vw;
-}
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-dark-green-blue;
+  padding-bottom: 7px;
+  }
 
-.fill__icon {
-  color: $color-dull-orange;
+.input {
+  width: 90vw;
+  border: 1px solid $color-hospital-green;
+  padding-bottom: 20px;
+
 }
 
 
 
 //SHARE
-// .form__share {
-//   border-left: transparent;
-//   border-right: transparent;
-//   border-top: transparent;
-//   border-color:$color-white-two ;
-// }
-
-.form__share--title {
-  font-family: $font-open;
-  font-weight: bold;
-  font-size: 1.8rem;
-  color: $color-gunmetal;
-  text-transform: uppercase;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 95vw;
-}
-
-.arrow {
-  text-align: end;
-}
-
-.share__icon {
-  color: $color-dull-orange;
-}
-
-.card__icon {
-    color: $color-dull-orange;
-    background-color: $color-white-two;
-    border: 1px solid white;
-    border-radius: 3px;
-    margin: 4px;
-}
 
 .button {
   background-color: $color-dull-orange;
@@ -121,4 +84,11 @@
   border-radius: 10px;
   margin: 18px;
   padding: 10px 12px;
+  & .card__icon {
+    color: $color-dull-orange;
+    background-color: $color-white-two;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 4px;
+    }
 }

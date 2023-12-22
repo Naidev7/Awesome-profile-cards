@@ -1,9 +1,12 @@
 <form class="form" method="POST">
-  <fieldset class="form__design">
-    <legend class="form__design--title">
-      <i class="fa-regular fa-object-ungroup design__icon"></i>
-      <p class="design__text">Diseña</p>
-      <div class="arrow"><i class="fa-solid fa-chevron-down "></i></div>
+  <fieldset class="form__section">
+    <legend class="form__section--title">
+      <div><i class="fa-regular fa-object-ungroup icon1"></i>
+      Diseña
+      </div>
+      <div class="arrow">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
     </legend>
     <div class="design__colors">
         <h4 class="design__colors--h4">Colores</h4>
@@ -24,78 +27,90 @@
     </div>
   </fieldset>
   <fieldset class="form__section">
-    <legend class="form__fill--title">
+    <legend class="form__section--title">
       <div>
-        <i class="fa-regular fa-keyboard fill__icon"></i> Rellena
+        <i class="fa-regular fa-keyboard icon1"></i> Rellena
       </div>
       <div class="arrow">
         <i class="fa-solid fa-chevron-down"></i>
       </div>
     </legend>
-    <label for="name"
-      >Nombre completo
-      <input id="name" type="text" name="name" placeholder="Ej: Sally Hill" />
-    </label>
-
-    <label for="possition"
-      >Puesto
+    
+      <label for="name" class="label">
+        Nombre completo
+      </label>
+      <input class="input" id="name" type="text" name="name" placeholder="Ej: Sally Hill" />
+    
+      <label for="possition" class="label">
+      Puesto
+      </label>
       <input
-        id="possition"
-        type="text"
-        name="possition"
-        placeholder="Ej: Front-end unicorn"
+          class="input"
+          id="possition"
+          type="text"
+          name="possition"
+          placeholder="Ej: Front-end unicorn"
       />
-    </label>
-
-    <label for="profileImg"
-      >Imagen de perfil
-      <input id="profileImg" type="file" value="profileImg" name="profileImg" />
+  
+    <div>
+      <label for="profileImg" class="label"> 
+        Imagen de perfil
+      </label>
+      <input class="input" id="profileImg" type="file" value="profileImg" name="profileImg" />
       <div class="tinyImg"></div>
-    </label>
-
-    <label for="email"
-      >Email
+    </div>
+    <div>
+      <label for="email" class="label">
+        Email
+      </label>
       <input
-        id="email"
-        type="email"
-        name="email"
-        placeholder="Ej: sally-hill@gmail.com"
+          class="input"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Ej: sally-hill@gmail.com"
       />
-    </label>
-
-    <label for="phone"
-      >Teléfono
+    </div>
+    <div>
+      <label for="phone" class="label">
+        Teléfono
+      </label>
       <input
-        id="phone"
-        type="tel"
-        name="phone"
-        placeholder="Ej: 555-55-55-55"
+          class="input"
+          id="phone"
+          type="tel"
+          name="phone"
+          placeholder="Ej: 555-55-55-55"
       />
-    </label>
-
-    <label for="linkedin"
-      >LinkedIn
+    </div>
+    <div>
+      <label for="linkedin" class="label">
+        LinkedIn
+      </label>
       <input
-        id="linkedin"
-        type="text"
-        name="linkedin"
-        placeholder="Ej: linkedin.com/in/sally.hill"
+          class="input"
+          id="linkedin"
+          type="text"
+          name="linkedin"
+          placeholder="Ej: linkedin.com/in/sally.hill"
       />
-    </label>
-
-    <label for="github"
-      >GitHub
+    </div>
+    <div>
+      <label for="github" class="label">
+        GitHub
+      </label>
       <input
-        id="github"
-        type="text"
-        name="github"
-        placeholder="Ej: @sally-hill"
+          class="input"
+          id="github"
+          type="text"
+          name="github"
+          placeholder="Ej: @sally-hill"
       />
-    </label>
+    </div>
   </fieldset>
   <fieldset class="form__section">
-    <legend class="form__share--title">
-      <div><i class="fa-solid fa-share-nodes share__icon"></i> Comparte
+    <legend class="form__section--title">
+      <div><i class="fa-solid fa-share-nodes icon1"></i> Comparte
       </div>
       <div class="arrow">
         <i class="fa-solid fa-chevron-down"></i>
