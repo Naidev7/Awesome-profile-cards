@@ -1,2 +1,18 @@
-@import '../layout/card';
 @import '../layout/form';
+@import '../layout/card';
+
+@media (min-width:768px) {
+    main{
+        display: flex;
+        background:linear-gradient($color-white-four, $color-white-two ) ;
+        & .section-card{
+            flex: 1;
+            order: 2;
+            width: 329px;
+            height: 812px;
+        }
+        & .form{
+            order: 1;
+        }
+    }
+}
