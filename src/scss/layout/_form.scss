@@ -1,28 +1,25 @@
 //COMÚN
-
 .form {
-  margin: 2%;
+  margin: 3%;
   &__section {
     border-left: transparent;
     border-right: transparent;
     border-top: transparent;
-    border-color:$color-white-two;
-    padding:27px 0 30px 0 ;
+    border-color: $color-white-two;
+    padding: 27px 0 30px 0;
     align-items: center;
     width: 90vw;
-  
-  
   }
   &__section--title {
-  font-family: $font-open;
-  font-weight: bold;
-  font-size: 1.8rem;
-  color: $color-gunmetal;
-  text-transform: uppercase;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 95vw;
+    font-family: $font-open;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: $color-gunmetal;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 95vw;
     & .icon1 {
       color: $color-dull-orange;
     }
@@ -31,28 +28,45 @@
     }
   }
 }
-
 //DESIGN
-
 .design__colors {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 22px;
+  & .design__colors--h4 {
+    font-family: $font-open;
+    font-size: 14px;
+    color: $color-gunmetal;
+    text-transform: uppercase;
+  }
+  & .design__colors--radio {
     display: flex;
-    justify-content: space-around;
-    padding-top: 22px;
-    & .design__colors--h4 {
-      font-family: $font-open;
-      font-size: 14px;
-      color: $color-gunmetal;
-      text-transform: uppercase;
-    }
-    & .design__colors--radio {
-      display: flex;
-      flex-direction: column;
-      gap:20px ;
+    flex-direction: column;
+    gap: 20px;
+  }
+  & .colors1{
+    & .palete1{
+      width: 90px;
+      & .dark__green{
+        background-color:$color-dark-green-blue;
+        width: 30px;
+        height: 25px;
+      }
+      & .dirty__blue{
+        background-color: $color-dirty-blue;
+        width: 30px;
+        height: 25px;
+      }
+      & .hospital__green{
+        background-color: $color-hospital-green;
+        width: 30px;
+        height: 25px;
+      }
     }
   }
+}
 
 //FILL
-
 .label {
   display: flex;
   flex-direction: column;
@@ -61,16 +75,45 @@
   line-height: 20px;
   color: $color-dark-green-blue;
   padding-bottom: 7px;
-  }
-
+}
 .input {
   width: 90vw;
   border: 1px solid $color-hospital-green;
   padding-bottom: 20px;
-
+  &::placeholder {
+    font-size: 14px;
+    font-family: $font-open;
+    width: 137px;
+    color: $color-pinkish-grey;
+    transform: translate(9px, 3px);
+    line-height: 20px;
+  }
+}
+.imgInput{
+  display: none;
 }
 
-
+.fakeBtn{
+  display: flex;
+  .btn{
+    background-color:$color-dull-orange ;
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.32);
+    color: $color-white-two;
+    font-family: $font-open;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .tinyImg{
+    border:solid 1px $color-hospital-green;
+    width: 30px;
+    height: 30px;
+    margin-left:20px  ;
+  }
+}
 
 //SHARE
 
@@ -90,5 +133,5 @@
     border: 1px solid white;
     border-radius: 3px;
     margin: 4px;
-    }
+  }
 }
