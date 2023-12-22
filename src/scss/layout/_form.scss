@@ -56,7 +56,7 @@
     & .palete1{
       display: flex;
       flex-direction: row;
-      margin-left: 15px;
+      margin-left: 10px;
       
       & .dark__green{
         background-color:$color-dark-green-blue;
@@ -78,40 +78,39 @@
       
       display: flex;
       flex-direction: row;
-      margin-left: 5px;
-      & .dark__green{
-        background-color:$color-dark-green-blue;
+      margin-left: 10px;
+      & .dried__blood{
+        background-color:$color-dried-blood;
         width: 30px;
         height: 25px;
       }
-      & .dirty__blue{
-        background-color: $color-dirty-blue;
+      & .rusty__red{
+        background-color: $color-rusty-red;
         width: 30px;
         height: 25px;
       }
-      & .hospital__green{
-        background-color: $color-hospital-green;
+      & .tomato{
+        background-color:$color-tomato;
         width: 30px;
         height: 25px;
       }
     }
     & .palete3{
-      
       display: flex;
       flex-direction: row;
-      margin-left: 5px;
-      & .dark__green{
-        background-color:$color-dark-green-blue;
+      margin-left: 10px;
+      & .slate{
+        background-color:$color-slate;
         width: 30px;
         height: 25px;
       }
-      & .dirty__blue{
-        background-color: $color-dirty-blue;
+      & .faded__orange{
+        background-color: $color-faded-orange;
         width: 30px;
         height: 25px;
       }
-      & .hospital__green{
-        background-color: $color-hospital-green;
+      & .light-grey-blue{
+        background-color: $color-light-grey-blue;
         width: 30px;
         height: 25px;
       }
