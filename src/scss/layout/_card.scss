@@ -1,4 +1,4 @@
-.section-card {
+.preview-card {
     background-color: $color-silver;
     width: 320px;
     height: 500px;
@@ -22,10 +22,10 @@
     height: 25px;
     border: solid 1px $color-white-two;
     border-radius: 15px;
-    transform: translate(40px, 35px);
+    transform: translate(35px, 35px);
     padding: 10px;
-    padding-bottom: 18px;
-    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
     
   
 
@@ -43,6 +43,8 @@
  color:$color-gunmetal; 
  text-transform: uppercase;
  font-size: 10px;
+ font-family: $font-open;
+ cursor: pointer;
 
 }
 
@@ -106,13 +108,64 @@
     height: 25px;
     border: solid 2px $color-hospital-green; 
     border-radius: 50%;
-    padding-top: 3px ;
+    padding-bottom: 2.5px ;
+    display: flex;
+    justify-content: center;
     
 }
 
 
 .card-text {
-    border-left: solid 5px $color-dark-green-blue;
+    border-left: solid 5px $color-hospital-green;
     padding-left: 5px;
 }
 
+.icon-link {
+   
+    
+    color: $color-dark-green-blue;
+}
+
+
+
+.palete1 {
+    .card-text {
+        border-left: solid 5px  $color-dirty-blue;}
+    .card-title {
+        color: $color-dark-green-blue;}
+    .box-icon {
+        border: solid 2px $color-hospital-green;}
+    .icon {
+        color:$color-dark-green-blue;}
+    .icon-link {
+        color:$color-dark-green-blue;}
+}
+
+
+
+.palete2 {
+    .card-text {
+        border-left: solid 5px  $color-rusty-red;}
+    .card-title {
+        color: $color-dried-blood;}
+    .box-icon {
+        border: solid 2px $color-tomato;}
+    .icon {
+        color:$color-dried-blood;}
+    .icon-link {
+        color:$color-dried-blood;}
+}
+
+
+.palete3 {
+    .card-text {
+        border-left: solid 5px  $color-faded-orange;}
+    .card-title {
+        color: $color-slate;}
+    .box-icon {
+        border: solid 2px $color-light-grey-blue;}
+    .icon {
+        color:$color-slate;}
+    .icon-link {
+        color:$color-slate;}
+}
