@@ -20,6 +20,7 @@
     font-family: $font-open;
     font-weight: bold;
     font-size: 1.8rem;
+    padding-top: 10px;
     color: $color-gunmetal;
     text-transform: uppercase;
     display: grid;
@@ -37,12 +38,12 @@
     }
   }
 }
-//hidden//
+//hidden
 
-.hidden{
-  visibility: hidden;
-  height: 41px;
-}
+// .hidden{
+//   visibility: hidden;
+//   height: 41px;
+// }
 
 //DESIGN
 .design__colors {
@@ -66,6 +67,7 @@
   & .colors{
     display: flex;
     flex-direction: row;
+    
     & .palete1{
       display: flex;
       flex-direction: row;
@@ -142,8 +144,9 @@
 }
 .input {
   width: 90vw;
+  height: 30px;
   border: 1px solid $color-hospital-green;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   &::placeholder {
     font-size: 14px;
     font-family: $font-open;
@@ -169,6 +172,7 @@
     text-align: center;
     font-size: 14px;
     line-height: 20px;
+    padding-top: 3px;
   }
   .tinyImg{
     border:solid 1px $color-hospital-green;
