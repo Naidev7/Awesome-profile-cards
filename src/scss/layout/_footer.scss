@@ -4,6 +4,7 @@
     align-items: center;
     font-size: 1.4rem;
     margin-bottom: 20px;
+    height: 10vh;
     @media (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
@@ -12,9 +13,11 @@
     &__text {
         font-family: $font-open;
         color: $color-brownish-grey;
+        padding: 20px 0px 10px 0px;
     }
     &__img {
         width: 100px;
         height: 40px;
+        padding-top: 10px;
     }
 }
