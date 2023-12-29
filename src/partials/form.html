@@ -1,5 +1,5 @@
 <form class="form" method="POST">
-  <fieldset class="form__section">
+  <fieldset class="form__section ">
     <legend class="form__section--title">
       <div>
         <i class="fa-regular fa-object-ungroup icon1"></i>
@@ -9,12 +9,12 @@
         <i class="fa-solid fa-chevron-down"></i>
       </div>
     </legend>
-    <div class="design__colors ">
+    <div class="design__colors js-section ">
       <h4 class="design__colors--h4">Colores</h4>
       <div class="design__colors--radio">
         <label for="colors1" class="colors">
           <input
-            class="design__input"
+            class="design__input js-paletteONe"
             id="colors1"
             type="radio"
             value="opcion1"
@@ -30,7 +30,7 @@
         </label>
         <label for="colors2" class="colors">
           <input
-            class="design__input"
+            class="design__input js-paletteTwo"
             id="colors2"
             type="radio"
             value="opcion2"
@@ -44,7 +44,7 @@
         </label>
         <label for="colors3" class="colors">
           <input
-            class="design__input"
+            class="design__input js-paletteThree"
             id="colors3"
             type="radio"
             value="opcion3"
@@ -66,10 +66,10 @@
         <i class="fa-solid fa-chevron-down"></i>
       </div>
     </legend>
-    <div >
+    <div class="js-form" >
       <label for="name" class="label"> Nombre completo </label>
     <input
-      class="input"
+      class="input js-inputName"
       id="name"
       type="text"
       name="name"
@@ -77,7 +77,7 @@
     />
     <label for="possition" class="label"> Puesto </label>
     <input
-      class="input"
+      class="input  js-inputPosition"
       id="possition"
       type="text"
       name="possition"
@@ -97,7 +97,7 @@
     </div>
     <label for="email" class="label"> Email </label>
     <input
-      class="input"
+      class="input js-inputEmail"
       id="email"
       type="email"
       name="email"
@@ -105,7 +105,7 @@
     />
     <label for="phone" class="label"> Teléfono </label>
     <input
-      class="input"
+      class="input js-inputPhone"
       id="phone"
       type="tel"
       name="phone"
@@ -113,7 +113,7 @@
     />
     <label for="linkedin" class="label"> LinkedIn </label>
     <input
-      class="input"
+      class="input js-inputLinkedin"
       id="linkedin"
       type="text"
       name="linkedin"
@@ -121,7 +121,7 @@
     />
     <label for="github" class="label"> GitHub </label>
     <input
-      class="input"
+      class="input js-inputGithub"
       id="github"
       type="text"
       name="github"
@@ -136,7 +136,7 @@
         <i class="fa-solid fa-chevron-down"></i>
       </div>
     </legend>
-    <button class="button ">
+    <button class="button js-btnShare ">
       <i class="fa-solid fa-address-card card__icon"></i> Crear tarjeta
     </button>
     <div class="line"></div>
