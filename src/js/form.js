@@ -20,7 +20,7 @@ function handleHiddenShare(event) {
 legendShare.addEventListener("click",handleHiddenShare);
 
 //crear un evento para todo el form que será el current target//
-
+/*
 function handleForm(event) {
     console.log(event.currentTarget);
     console.log(event.target);
@@ -29,4 +29,4 @@ function handleForm(event) {
 
 form.addEventListener("click", handleForm);
 
-
+*/

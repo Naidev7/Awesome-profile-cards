@@ -6,6 +6,7 @@ function handlePaletteOne(event) {
 }
 
 paletteOne.addEventListener("click", handlePaletteOne);
+console.log(paletteOne);
 
 function handlePaletteTwo(event) {
     card.classList.toggle('preview-palette2');
