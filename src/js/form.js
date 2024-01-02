@@ -1,38 +1,21 @@
 'Use strict';
+console.log('holaa');
 
-section.addEventListener("click",(event)=>{
-    event.preventDefault();
-
+function handleHidden(event) {
     if(section.classList.contains('hidden')){
-        section.classList.toggle('hidden')
+        section.classList.add('hidden');
     }
      else(
-        section.classList.tog('hidden')
+        section.classList.remove('hidden')
     );
-});
+}
+
+section.addEventListener("click",handleHidden );
 
 //lo mismo pero con el form//
 
-form.addEventListener("click",(event)=>{
-    event.preventDefault();
-
-    if(form.classList.contains('hidden')){
-        form.classList.remove('hidden')
-    }
-     else(
-        form.classList.add('hidden')
-    );
-});
+form.addEventListener("click", );
 
 //Y más con el button de share//
 
-btnShare.addEventListener("click",(event)=>{
-    event.preventDefault();
-
-    if(btnShare.classList.contains('hidden')){
-        btnShare.classList.remove('hidden')
-    }
-     else(
-        btnShare.classList.add('hidden')
-    );
-});
+btnShare.addEventListener("click",);

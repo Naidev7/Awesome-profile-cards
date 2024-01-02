@@ -1,5 +1,14 @@
 'Use strict';
 
+//Variables de card//
+const previewName = document.querySelector('.js-name');
+const previewPosition = document.querySelector('.js-position');
+const previewImg = document.querySelector('.js-img');
+const previewPhone = document.querySelector('.js-phone');
+const previewEmail = document.querySelector('.js-email');
+const previewLinkedin = document.querySelector('.js-linkedin');
+const previewGithub = document.querySelector('.js-github');
+
 //variables del html design//
 const section = document.querySelector('.js-section');
 const paletteOne = document.querySelector('.js-paletteONe');

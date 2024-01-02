@@ -5,7 +5,7 @@
     main{
         display: flex;
         background:linear-gradient($color-white-four, $color-white-two ) ;
-        & .section-card{
+        & .preview-card{
             flex: 1;
             order: 2;
             width: 329px;
