@@ -3,24 +3,26 @@
 
 function handlePaletteOne(event) {
     card.classList.add('preview-palette1');
-    console.log(handlePaletteOne)
+    console.log(handlePaletteOne);
 }
 
 paletteOne.addEventListener("click", handlePaletteOne);
 
 function handlePaletteTwo(event) {
-    card.classList.toggle('preview-palette2');
+    card.classList.remove('preview-palette1');
+    card.classList.add('preview-palette2');
 }
 
 paletteTwo.addEventListener("click", handlePaletteTwo);
 
 function handlePaletteThree(event) {
-    card.classList.toggle('preview-palette3');
+    card.classList.remove('preview-palette2');
+    card.classList.add('preview-palette3');
 }
 
 paletteThree.addEventListener("click", handlePaletteThree);
 
-
+/*
 function handleColorsContainer(event){
     console.log(event.currentTarget);
     console.log(event.target);
@@ -31,4 +33,4 @@ function handleColorsContainer(event){
     }
 }
 
-colorsContainer.addEventListener("click",handleColorsContainer);
+colorsContainer.addEventListener("click",handleColorsContainer);*/
