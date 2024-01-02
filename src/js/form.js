@@ -1,21 +1,30 @@
 'Use strict';
-console.log('holaa');
 
-function handleHidden(event) {
-    if(section.classList.contains('hidden')){
-        section.classList.add('hidden');
-    }
-     else(
-        section.classList.remove('hidden')
-    );
+function handleHiddenDesign(event) {
+    section.classList.toggle('hidden');
 }
 
-section.addEventListener("click",handleHidden );
+legendDesign.addEventListener("click",handleHiddenDesign);
 
-//lo mismo pero con el form//
 
-form.addEventListener("click", );
+function handleHiddenForm(event) {
+    formContainer.classList.toggle('hidden');
+}
 
-//Y más con el button de share//
+legendFill.addEventListener("click",handleHiddenForm);
 
-btnShare.addEventListener("click",);
+function handleHiddenShare(event) {
+    btnShare.classList.toggle('hidden');
+}
+
+legendShare.addEventListener("click",handleHiddenShare);
+
+//crear un evento para todo el form que será el current target//
+
+function handleForm(event) {
+    console.log(event.currentTarget);
+    console.log(event.target);
+   previewName.innerHTML = userName.value
+}
+
+form.addEventListener("click", handleForm);
