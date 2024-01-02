@@ -21,6 +21,7 @@ const paletteThree = document.querySelector('.js-paletteThree');
 
 //variables de los inputs del form//
 const legendFill = document.querySelector('.js-legendFill');
+const colorsContainer = document.querySelector('.js-colors');
 const formContainer = document.querySelector('.js-formContainer');
 const userName = document.querySelector('.js-inputName');
 const userPosition = document.querySelector('.js-inputPosition');

@@ -2,11 +2,11 @@
 
 
 function handlePaletteOne(event) {
-    card.classList.toggle('preview-palette1');
+    card.classList.add('preview-palette1');
+    console.log(handlePaletteOne)
 }
 
 paletteOne.addEventListener("click", handlePaletteOne);
-console.log(paletteOne);
 
 function handlePaletteTwo(event) {
     card.classList.toggle('preview-palette2');
@@ -19,3 +19,16 @@ function handlePaletteThree(event) {
 }
 
 paletteThree.addEventListener("click", handlePaletteThree);
+
+
+function handleColorsContainer(event){
+    console.log(event.currentTarget);
+    console.log(event.target);
+    if (event.target.id === "colors1") {
+        card.classList.add('preview-palette1');
+    } else{
+        card.classList.remove('preview-palette1');
+    }
+}
+
+colorsContainer.addEventListener("click",handleColorsContainer);
