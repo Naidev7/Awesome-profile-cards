@@ -1,7 +1,8 @@
-'Use strict';
+'use strict';
 const form = document.querySelector('.js-form');
 
 //Variables de card//
+const card = document.querySelector('.js-card');
 const previewName = document.querySelector('.js-name');
 const previewJob = document.querySelector('.js-position');
 const previewImg = document.querySelector('.js-img');
@@ -10,10 +11,11 @@ const previewEmail = document.querySelector('.js-email');
 const previewLinkedin = document.querySelector('.js-linkedin');
 const previewGithub = document.querySelector('.js-github');
 
+
 //variables del html design//
 const legendDesign = document.querySelector('.js-legendDesign');
 const section = document.querySelector('.js-section');
-const paletteOne = document.querySelector('.js-paletteONe');
+const paletteOne = document.querySelector('.js-paletteOne');
 const paletteTwo = document.querySelector('.js-paletteTwo');
 const paletteThree = document.querySelector('.js-paletteThree');
 

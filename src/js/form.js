@@ -1,4 +1,4 @@
-'Use strict';
+'use strict';
 
 function handleHiddenDesign(event) {
     section.classList.toggle('hidden');
@@ -28,3 +28,5 @@ function handleForm(event) {
 }
 
 form.addEventListener("click", handleForm);
+
+
