@@ -2,21 +2,21 @@
 
 
 function handlePaletteOne(event) {
+    card.classList.remove('preview-palette1', 'preview-palette2', 'preview-palette3'  );
     card.classList.add('preview-palette1');
-    console.log(handlePaletteOne);
 }
 
 paletteOne.addEventListener("click", handlePaletteOne);
 
 function handlePaletteTwo(event) {
-    card.classList.remove('preview-palette1');
+    card.classList.remove('preview-palette1', 'preview-palette2', 'preview-palette3' );
     card.classList.add('preview-palette2');
 }
 
 paletteTwo.addEventListener("click", handlePaletteTwo);
 
 function handlePaletteThree(event) {
-    card.classList.remove('preview-palette2');
+    card.classList.remove('preview-palette1', 'preview-palette2', 'preview-palette3' );
     card.classList.add('preview-palette3');
 }
 
