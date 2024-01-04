@@ -1,19 +1,12 @@
 .preview-card {
+    height: 460px;
     background-color: $color-silver;
-    width: 320px;
-    height: 500px;
-    
-    
-    
-}
-
-.card-reset {
-   
-    width: 70px;
-    height: 30px;
-    border-radius: 15px;
-   
-    
+    @media (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -26,42 +19,34 @@
     padding: 10px;
     padding-bottom: 15px;
     padding-top: 5px;
-    
-  
-
+    background-color:$color-silver;
+    color:$color-gunmetal; 
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: $font-open;
+    cursor: pointer;
+    @media (min-width:768px) {
+        transform: translateX(-100px);
+        width: 75px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
 }
 
 .reset-icon {
     color:$color-gunmetal;  
-   
 }
-
-.reset-botton {
-
- border: none;
- background-color:$color-silver;
- color:$color-gunmetal; 
- text-transform: uppercase;
- font-size: 10px;
- font-family: $font-open;
- cursor: pointer;
-
-}
-
-
 
 .details-card {
   width: 250px;
   height: 350px;
   box-shadow: 0 1px 10px 0 $color-black-20, 0 1px 3px 0 rgba(0, 0, 0, 0.35);
-  margin: 50px 30px 30px;
-  padding: 10px;
+  margin-top: 50px;
   border-radius: 2px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap:5px;
 }
 
 
@@ -83,40 +68,35 @@
     padding: 5px;
     display: flex;
     color: $color-dark-green-blue;
-    
-   
-    
-
 }
 
 .card-title {
     color: $color-dark-green-blue;
     font-family: $font-montse ;
     font-weight: bolder;
-   
-    
+    font-size: 1.8rem;
 }
 
 .card-job {
     color:$color-gunmetal;
     font-weight: lighter;
+    font-size: 1.6rem;
 }
 
-
 .box-icon {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border: solid 2px $color-hospital-green; 
     border-radius: 50%;
     padding-bottom: 2.5px ;
     display: flex;
     justify-content: center;
+    font-size: 1.8rem;
     
 }
 
-
 .card-text {
-    border-left: solid 5px $color-hospital-green;
+    border-left: solid 5px $color-dirty-blue;
     padding-left: 5px;
 }
 
