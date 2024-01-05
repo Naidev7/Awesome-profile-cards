@@ -32,13 +32,22 @@
     }
     & .arrow {
       text-align: end;
+    } 
+      
+    & .arrowUp {
+      text-align: end;
+      transform: rotate(180deg);
     }
+      
+    
     @media (min-width:768px) {
       width: 40vw;
     }
     @media (min-width:1200) {
       width: 20vw;
     }
+    
+    
   }
 }
 
@@ -176,6 +185,9 @@
     padding-top: 3px;
   }
   .tinyImg{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     border:solid 1px $color-hospital-green;
     width: 30px;
     height: 30px;

@@ -1,11 +1,13 @@
 'use strict';
 const form = document.querySelector('.js-form');
-
+const arrow = document.querySelector('.js-arrow');
+const arrow2 = document.querySelector('.js-arrow2');
+const arrow3 = document.querySelector('.js-arrow3');
 //Variables de card//
 const card = document.querySelector('.js-card');
 const previewName = document.querySelector('.js-name');
 const previewJob = document.querySelector('.js-position');
-const previewImg = document.querySelector('.js-img');
+const previewImg = document.querySelector('.js__profile-image');
 const previewPhone = document.querySelector('.js-phone');
 const previewEmail = document.querySelector('.js-email');
 const previewLinkedin = document.querySelector('.js-linkedin');
@@ -29,6 +31,8 @@ const userEmail = document.querySelector('.js-inputEmail');
 const userPhone = document.querySelector('.js-inputPhone');
 const userLinkedin = document.querySelector('.js-inputLinkedin');
 const userGithub = document.querySelector('.js-inputGithub');
+const profilePreview = document.querySelector('.js__profile-preview');
+const fileField = document.querySelector('.js__profile-upload-btn');
 
 //variables del comparte
 const legendShare = document.querySelector('.js-legendShare');

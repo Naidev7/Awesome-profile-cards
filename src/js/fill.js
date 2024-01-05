@@ -1,53 +1,4 @@
 'use strict';
-/*
-
-function handleInputName(event) {
-    const inputName = event.currentTarget.value;
-    previewName.innerHTML = `${inputName}`;
-};
-
-userName.addEventListener('input', handleInputName);
-
-
-function handleInputPosition(event) {
-    const inputPosition = event.currentTarget.value;
-    previewJob.innerHTML = `${inputPosition}`;
-};
-
-userPosition.addEventListener('input', handleInputPosition);
-
-
-function handleInputEmail(event) {
-    const inputEmail = event.currentTarget.value;
-    previewEmail.href = `mailto:${inputEmail}`;
-};
-
-userEmail.addEventListener('input', handleInputEmail);
-
-
-function handleInputPhone(event) {
-    const inputPhone = event.currentTarget.value;
-    previewPhone.href = `${inputPhone}`;
-};
-
-userPhone.addEventListener('input', handleInputPhone);
-
-
-function handleInputLinkedin(event) {
-    const inputLinkedin = event.currentTarget.value;
-    previewLinkedin.href = `target_blank:${inputLinkedin}`;
-};
-
-userLinkedin.addEventListener('input', handleInputLinkedin);
-
-
-// const text = document.querySelector('.js-input');
-// const newText = document.querySelector('.js-newText');
-// text.addEventListener('input', (getText) => {
-//     const input = getText.currentTarget.value;
-//     newText.innerHTML = `${input}`
-
-*/
 
 const dataForm = {
         palette: 1,
@@ -65,8 +16,8 @@ function printHtml() {
     previewImg.innerHTML = dataForm.photo;
     previewPhone.href =` tel:${ dataForm.phone}`;
     previewEmail.href = `mailto:${dataForm.email}`;
-    previewLinkedin.href +=dataForm.linkedin;
-    previewGithub.href = dataForm.github;
+    previewLinkedin.href = `https://www.linkedin.com/in/${dataForm.linkedin}`;
+    previewGithub.href = `https://www.github.com/${dataForm.github}`;
     if(dataForm.name === ""){
         previewName.innerHTML = 'Nombre y apellido'
     } else{

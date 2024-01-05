@@ -3,6 +3,7 @@
 
 @media (min-width:768px) {
     main{
+        height: 80vh;
         display: flex;
         background:linear-gradient($color-white-four, $color-white-two ) ;
         & .preview-card{
