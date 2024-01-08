@@ -8,10 +8,15 @@
         width: 250px;
         height: 65px;
         margin: 95px 35px 35px 35px;
-        @media (min-width: 768px) {
+        @media (max-height: 768px) {
         width: 420px;
         height: 105px;
-        margin-top: 150px;
+        margin-top: 80px;
+        }
+        @media (min-height: 768px) {
+            margin-top: 150px;
+            width: 420px;
+            height: 105px;
         }
     }
     &__title {
@@ -81,7 +86,10 @@
         text-transform: uppercase;
         font-family: $font-open;
         font-weight: 700;
-        @media (min-width: 768px) {
+        @media (max-height: 768px) {
+            margin-top: 40px;
+        }
+        @media (min-height: 768px) {
             margin-top: 150px;
         }
     }
