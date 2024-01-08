@@ -3,9 +3,10 @@
 
 @media (min-width:768px) {
     main{
+        height: 80vh;
         display: flex;
         background:linear-gradient($color-white-four, $color-white-two ) ;
-        & .section-card{
+        & .preview-card{
             flex: 1;
             order: 2;
             width: 329px;
