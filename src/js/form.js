@@ -1,5 +1,3 @@
-'use strict';
-
 function handleHiddenDesign(event) {
     if (section.classList.contains('hidden')) {
         section.classList.remove('hidden');
@@ -15,7 +13,6 @@ function handleHiddenDesign(event) {
 
 }
     
-  
 
 legendDesign.addEventListener("click",handleHiddenDesign);
 

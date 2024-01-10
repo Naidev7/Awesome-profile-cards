@@ -1,4 +1,3 @@
-'use strict';
 const form = document.querySelector('.js-form');
 const arrow = document.querySelector('.js-arrow');
 const arrow2 = document.querySelector('.js-arrow2');
