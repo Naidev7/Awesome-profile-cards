@@ -5,10 +5,14 @@
     font-size: 1.4rem;
     margin-bottom: 20px;
     height: 10vh;
+    background-color: white;
+    position: relative;
+    
     @media (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
         margin: 0px 40px;
+        background-color: white;
     }
     &__text {
         font-family: $font-open;
