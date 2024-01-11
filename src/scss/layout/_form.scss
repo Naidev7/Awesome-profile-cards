@@ -36,7 +36,7 @@
     } 
       
     & .arrowUp {
-      text-align: end;
+      text-align: start;
       transform: rotate(180deg);
     }
       
@@ -196,7 +196,12 @@
   }
 }
 //SHARE
-
+.btnShare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .button {
   background-color: $color-dull-orange;
   color: $color-white-two;
@@ -215,10 +220,11 @@
     margin: 4px;
   }
 }
-
-.hidden{
-  display: none;
+.button:active{
+  background-color: $color-white;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 .share__container{
   display: flex;
   flex-direction: column;
@@ -246,4 +252,9 @@
     align-self: center;
     box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); ;
   }
+}
+
+
+.hidden{
+  display: none;
 }
