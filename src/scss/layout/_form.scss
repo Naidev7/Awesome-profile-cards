@@ -220,12 +220,8 @@
     margin: 4px;
   }
 }
-.button:active{
-  background-color: $color-white;
-};
-.button:visited{
-  background-color: $color-white;
-};
+
+
 
 
 .share__container{
@@ -256,8 +252,12 @@
     box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); ;
   }
 }
-
-
+.disableIcon{
+  color: $color-white;
+}
+.disableBtn{
+  background-color: $color-white;
+};
 .hidden{
   display: none;
 }

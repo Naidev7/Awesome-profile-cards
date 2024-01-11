@@ -38,4 +38,4 @@ const legendShare = document.querySelector('.js-legendShare');
 const btnShare = document.querySelector('.js-btnShare');
 const createdCard = document.querySelector('.js-share__container');
 const btnCreateCard = document.querySelector('.js-btnCreateCard');
-
+const cardIcon = document.querySelector('.js-cardsIcon');
