@@ -1,5 +1,23 @@
+@media (min-width:768px) {
+    main{
+        height: 80vh;
+        display: flex;
+        background:linear-gradient($color-white-four, $color-white-two ) ;
+        & .preview-card{
+            flex: 1;
+            order: 2;
+            width: 329px;
+
+        }
+        & .form{
+            order: 1;
+        }
+    }
+}
+
+
 .preview-card {
-    height: 460px;
+    height: 80vh;
     background-color: $color-silver;
     @media (min-width:768px) {
         display: flex;
