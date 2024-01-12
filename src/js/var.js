@@ -1,4 +1,3 @@
-'use strict';
 const form = document.querySelector('.js-form');
 const arrow = document.querySelector('.js-arrow');
 const arrow2 = document.querySelector('.js-arrow2');
@@ -37,4 +36,6 @@ const fileField = document.querySelector('.js__profile-upload-btn');
 //variables del comparte
 const legendShare = document.querySelector('.js-legendShare');
 const btnShare = document.querySelector('.js-btnShare');
-
+const createdCard = document.querySelector('.js-share__container');
+const btnCreateCard = document.querySelector('.js-btnCreateCard');
+const cardIcon = document.querySelector('.js-cardsIcon');

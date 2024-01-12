@@ -1,5 +1,3 @@
-'use strict';
-
 const fr = new FileReader();
 
 /**

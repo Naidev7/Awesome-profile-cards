@@ -3,6 +3,7 @@
   margin: 3%;
   @media (min-width:768px) {
     margin: 6%;
+    
   }
   &__section {
     border-left: transparent;
@@ -35,7 +36,7 @@
     } 
       
     & .arrowUp {
-      text-align: end;
+      text-align: start;
       transform: rotate(180deg);
     }
       
@@ -195,7 +196,12 @@
   }
 }
 //SHARE
-
+.btnShare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .button {
   background-color: $color-dull-orange;
   color: $color-white-two;
@@ -215,6 +221,44 @@
   }
 }
 
+.share__container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  font-family: $font-open;
+  & .h3{
+    font-size: 1.8rem;
+    color: $color-gunmetal;
+  }
+  & .link{
+    color: $color-dull-orange;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  & .twiterBtn{
+    background-color: $color-azure;
+    border: none;
+    width: 181px;
+    height: 30px;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    align-self: center;
+    box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); ;
+  }
+}
+.disableIcon{
+  color: $color-white;
+  background-color:white ;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 4px;
+}
+.disableBtn{
+  background-color: $color-white;
+};
 .hidden{
   display: none;
 }
