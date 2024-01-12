@@ -1,5 +1,3 @@
-'use strict';
-
 const dataForm = {
         palette: 1,
         name: "",
