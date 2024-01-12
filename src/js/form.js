@@ -3,12 +3,14 @@ function handleHiddenDesign(event) {
         section.classList.remove('hidden');
         formContainer.classList.add('hidden');
         btnShare.classList.add('hidden'); 
-        arrow.classList.add('arrowUp');       
+        arrow.classList.add('arrowUp'); 
+        arrow2.classList.remove('arrowUp');
+        arrow3.classList.remove('arrowUp');      
     } else {
-        section.classList.add('hidden');
-        formContainer.classList.remove('hidden');
+        //section.classList.add('hidden');
+        formContainer.classList.add('hidden');
         btnShare.classList.add('hidden');
-        arrow.classList.remove('arrowUp');
+        arrow.classList.add('arrowUp');
     }
 
 }
@@ -22,12 +24,14 @@ function handleHiddenForm(event) {
         formContainer.classList.remove('hidden');
         btnShare.classList.add('hidden');
         section.classList.add('hidden'); 
-        arrow2.classList.add('arrowUp');       
+        arrow2.classList.add('arrowUp'); 
+        arrow.classList.remove('arrowUp');  
+        arrow3.classList.remove('arrowUp');    
     } else {
-        formContainer.classList.add('hidden');
-        btnShare.classList.remove('hidden');
+        //formContainer.classList.add('hidden');
+        btnShare.classList.add('hidden');
         section.classList.add('hidden');
-        arrow2.classList.remove('arrowUp');
+        arrow2.classList.add('arrowUp');
     }
 }
 
@@ -38,12 +42,15 @@ function handleHiddenShare(event) {
         btnShare.classList.remove('hidden');
         formContainer.classList.add('hidden');
         section.classList.add('hidden'); 
-        arrow3.classList.add('arrowUp');       
+        arrow3.classList.add('arrowUp');  
+        arrow2.classList.remove('arrowUp');
+        arrow.classList.remove('arrowUp');     
     } else {
-        btnShare.classList.add('hidden');
-        formContainer.classList.remove('hidden');
+        //btnShare.classList.add('hidden');
+        formContainer.classList.add('hidden');
         section.classList.add('hidden');
-        arrow3.classList.remove('arrowUp');
+        arrow3.classList.add('arrowUp');
+        
     }
    
 }
