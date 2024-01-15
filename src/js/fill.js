@@ -1,4 +1,4 @@
-const dataForm = {
+let dataForm = {
         palette: 1,
         name: "",
         job: "",
