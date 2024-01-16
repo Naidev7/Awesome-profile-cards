@@ -1,152 +1,156 @@
 <form class="form js-form" method="POST">
-  <fieldset class="form__section">
-    <legend class="form__section--title js-legendDesign ">
-      <div>
-        <i class="fa-regular fa-object-ungroup icon1"></i>
-        Diseña
-      </div>
-      <div class="arrow arrowUp js-arrow">
-        <i class="fa-solid fa-chevron-down"></i>
-      </div>
-    </legend>
-    <div class="design__colors js-section">
-      <h4 class="design__colors--h4">Colores</h4>
-      <div class="design__colors--radio ">
-        <label for="colors1" class="colors js-colors">
-          <input
-            class="design__input js-paletteOne"
-            id="palette1" type="radio"
-            value="opcion1"
-            name="colors"
-            checked
-          />
-          <div class="palete1">
-            <div class="dark__green"></div>
-            <div class="dirty__blue"></div>
-            <div class="hospital__green"></div>
-          </div>
-        </label>
-        <label for="colors2" class="colors">
-          <input
-            class="design__input js-paletteTwo"
-            id="palette2"
-            type="radio"
-            value="opcion2"
-            name="colors"
-          />
-          <div class="palete2">
-            <div class="dried__blood"></div>
-            <div class="rusty__red"></div>
-            <div class="tomato"></div>
-          </div>
-        </label>
-        <label for="colors3" class="colors">
-          <input
-            class="design__input js-paletteThree"
-            id="palette3"
-            type="radio"
-            value="opcion3"
-            name="colors"
-          />
-          <div class="palete3">
-            <div class="slate"></div>
-            <div class="faded__orange"></div>
-            <div class="light-grey-blue"></div>
-          </div>
-        </label>
-      </div>
-    </div>
-  </fieldset>
-  <fieldset class="form__section">
-    <legend class="form__section--title js-legendFill">
-      <div><i class="fa-regular fa-keyboard icon1"></i> Rellena</div>
-      <div class="arrow js-arrow2">
-        <i class="fa-solid fa-chevron-down"></i>
-      </div>
-    </legend>
-    <div class="js-formContainer hidden">
-      <label for="name" class="label"> Nombre completo </label>
-      <input
-        class="input js-inputName"
-        id="name"
-        type="text"
-        name="name"
-        placeholder="Ej: Sally Hill" required
-      />
-      <label for="possition" class="label"> Puesto </label>
-      <input
-        class="input js-inputPosition"
-        id="job"
-        type="text"
-        name="possition"
-        placeholder="Ej: Front-end unicorn" required
-      />
-      <label for="profileImg" class="label"> Imagen de perfil </label>
-      <input
-        class="input imgInput js__profile-upload-btn"
-        id="profileImg"
-        type="file"
-        value="profileImg"
-        name="profileImg"
-      />
-      <label for="profileImg" class="fakeBtn">
-        <div class="btn">Añadir imagen</div>
-        <span class="tinyImg js__profile-preview"></span>
-      </label>
-      <label for="email" class="label"> Email </label>
-      <input
-        class="input js-inputEmail"
-        id="email"
-        type="email"
-        name="email"
-        placeholder="Ej: sally-hill@gmail.com"
-      />
-      <label for="phone" class="label"> Teléfono </label>
-      <input
-        class="input js-inputPhone"
-        id="phone"
-        type="tel"
-        name="phone"
-        placeholder="Ej: 555-55-55-55"
-      />
-      <label for="linkedin" class="label"> LinkedIn </label>
-      <input
-        class="input js-inputLinkedin"
-        id="linkedin"
-        type="text"
-        name="linkedin"
-        placeholder="Ej: sally.hill"
-      />
-      <label for="github" class="label"> GitHub </label>
-      <input
-        class="input js-inputGithub"
-        id="github"
-        type="text"
-        name="github"
-        placeholder="Ej: @sally-hill"
-      />
-    </div>
-  </fieldset>
-  <fieldset class="form__section">
-    <legend class="form__section--title js-legendShare">
-      <div><i class="fa-solid fa-share-nodes icon1"></i> Comparte</div>
-      <div class="arrow js-arrow3">
-        <i class="fa-solid fa-chevron-down"></i>
-      </div>
-    </legend>
-    <div class="hidden btnShare js-btnShare">
-      <button class="button js-btnCreateCard">
-        <i class="fa-solid fa-address-card card__icon js-cardsIcon"></i> Crear tarjeta
-      </button>
-      <div class="line"></div>
-      <div class="share__container js-share__container hidden">
-        <h3 class="h3">La tarjeta ha sido creada</h3>
-        <a class="link" href="">https://fontawesome.com/icons/twitter?f=brands&s=solid</a>
-        <button class="twiterBtn">
-          <i class="fa-brands fa-twitter twiterIcon"></i>
-          Comparte en twiter
-        </button>
-      </div>
-    </div>
-  </fieldset>
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendDesign">
+			<div>
+				<i class="fa-regular fa-object-ungroup icon1"></i>
+				Diseña
+			</div>
+			<div class="arrow arrowUp js-arrow">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="design__colors js-section">
+			<h4 class="design__colors--h4">Colores</h4>
+			<div class="design__colors--radio">
+				<label for="colors1" class="colors js-colors">
+					<input
+						class="design__input js-paletteOne"
+						id="palette1"
+						type="radio"
+						value="opcion1"
+						name="colors"
+						checked
+					/>
+					<div class="palete1">
+						<div class="dark__green"></div>
+						<div class="dirty__blue"></div>
+						<div class="hospital__green"></div>
+					</div>
+				</label>
+				<label for="colors2" class="colors">
+					<input
+						class="design__input js-paletteTwo"
+						id="palette2"
+						type="radio"
+						value="opcion2"
+						name="colors"
+					/>
+					<div class="palete2">
+						<div class="dried__blood"></div>
+						<div class="rusty__red"></div>
+						<div class="tomato"></div>
+					</div>
+				</label>
+				<label for="colors3" class="colors">
+					<input
+						class="design__input js-paletteThree"
+						id="palette3"
+						type="radio"
+						value="opcion3"
+						name="colors"
+					/>
+					<div class="palete3">
+						<div class="slate"></div>
+						<div class="faded__orange"></div>
+						<div class="light-grey-blue"></div>
+					</div>
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendFill">
+			<div><i class="fa-regular fa-keyboard icon1"></i> Rellena</div>
+			<div class="arrow js-arrow2">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="js-formContainer hidden">
+			<label for="name" class="label"> Nombre completo </label>
+			<input
+				class="input js-inputName"
+				id="name"
+				type="text"
+				name="name"
+				placeholder="Ej: Sally Hill"
+				required
+			/>
+			<label for="possition" class="label"> Puesto </label>
+			<input
+				class="input js-inputPosition"
+				id="job"
+				type="text"
+				name="possition"
+				placeholder="Ej: Front-end unicorn"
+				required
+			/>
+			<label for="profileImg" class="label"> Imagen de perfil </label>
+			<input
+				class="input imgInput js__profile-upload-btn"
+				id="profileImg"
+				type="file"
+				value="profileImg"
+				name="profileImg"
+			/>
+			<label for="profileImg" class="fakeBtn">
+				<div class="btn">Añadir imagen</div>
+				<span class="tinyImg js__profile-preview"></span>
+			</label>
+			<label for="email" class="label"> Email </label>
+			<input
+				class="input js-inputEmail"
+				id="email"
+				type="email"
+				name="email"
+				placeholder="Ej: sally-hill@gmail.com"
+			/>
+			<label for="phone" class="label"> Teléfono </label>
+			<input
+				class="input js-inputPhone"
+				id="phone"
+				type="tel"
+				name="phone"
+				placeholder="Ej: 555-55-55-55"
+			/>
+			<label for="linkedin" class="label"> LinkedIn </label>
+			<input
+				class="input js-inputLinkedin"
+				id="linkedin"
+				type="text"
+				name="linkedin"
+				placeholder="Ej: sally.hill"
+			/>
+			<label for="github" class="label"> GitHub </label>
+			<input
+				class="input js-inputGithub"
+				id="github"
+				type="text"
+				name="github"
+				placeholder="Ej: @sally-hill"
+			/>
+		</div>
+	</fieldset>
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendShare">
+			<div><i class="fa-solid fa-share-nodes icon1"></i> Comparte</div>
+			<div class="arrow js-arrow3">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="hidden btnShare js-btnShare">
+			<button class="button js-btnCreateCard">
+				<i class="fa-solid fa-address-card card__icon js-cardsIcon"></i>
+				Crear tarjeta
+			</button>
+			<div class="line"></div>
+			<div class="share__container js-share__container hidden">
+				<h3 class="h3">La tarjeta ha sido creada</h3>
+				<a class="link js-cardLink" href="" target="_blank"></a>
+				<button class="twiterBtn">
+					<i class="fa-brands fa-twitter twiterIcon"></i>
+					Comparte en twiter
+				</button>
+			</div>
+		</div>
+	</fieldset>
 </form>

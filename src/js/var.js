@@ -11,7 +11,7 @@ const previewPhone = document.querySelector('.js-phone');
 const previewEmail = document.querySelector('.js-email');
 const previewLinkedin = document.querySelector('.js-linkedin');
 const previewGithub = document.querySelector('.js-github');
-const btnReset = document.querySelector ('.js-reset-botton');
+const btnReset = document.querySelector('.js-reset-botton');
 
 //variables del html design//
 const legendDesign = document.querySelector('.js-legendDesign');
@@ -39,3 +39,4 @@ const btnShare = document.querySelector('.js-btnShare');
 const createdCard = document.querySelector('.js-share__container');
 const btnCreateCard = document.querySelector('.js-btnCreateCard');
 const cardIcon = document.querySelector('.js-cardsIcon');
+const cardLink = document.querySelector('.js-cardLink');
