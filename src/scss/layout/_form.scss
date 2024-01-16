@@ -239,14 +239,16 @@
   }
   & .twiterBtn{
     background-color: $color-azure;
+    width: 170px;
     border: none;
-    width: 181px;
     height: 30px;
     color: white;
     font-size: 1.4rem;
     border-radius: 5px;
     align-self: center;
-    box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); ;
+    box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); 
+    text-decoration: none;
+    padding-top: 4px;
   }
 }
 .disableIcon{
