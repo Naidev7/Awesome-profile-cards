@@ -41,3 +41,4 @@ const btnCreateCard = document.querySelector('.js-btnCreateCard');
 const cardIcon = document.querySelector('.js-cardsIcon');
 const cardLink = document.querySelector('.js-cardLink');
 const cardCreated = document.querySelector('.js-cardCreated');
+const twitterBtn = document.querySelector('.js-twitterBtn');
