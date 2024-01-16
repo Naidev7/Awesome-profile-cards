@@ -4,19 +4,25 @@ Este proyecto se centra en la creación de tarjetas profesionales utilizando HTM
 
 ## Funcionalidades Básicas
 
--   Cambio de Colores
+#### Cambio de Colores
+
     Proporciona tres paletas con una selección diferente de colores para cambiar fácilmente el color del texto y otros elementos de la tarjeta.
--   Edición de Texto
+
+#### Edición de Texto
+
     Visualiza de forma inmediata en la tarjeta el texto que vas introduciendo, como tu nombre, tu puesto de trabajo...
     Además te permite crear un enlace de forma rápida y sencilla a tus redes sociales profesionales.
 
 ## Funcionalidades Avanzadas
 
--   Guardado local
+#### Guardado local
+
     Almacena los datos de la tarjeta en el almacenamiento local del navegador, permitiendo a los usuarios retomar su trabajo más tarde.
--   Creación de URL
+
+#### Creación de URL
+
     Crea una URL con tu tarjeta finalizada desde donde podrás descargarla.
 
-#### Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
