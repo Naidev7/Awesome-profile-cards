@@ -40,3 +40,4 @@ const createdCard = document.querySelector('.js-share__container');
 const btnCreateCard = document.querySelector('.js-btnCreateCard');
 const cardIcon = document.querySelector('.js-cardsIcon');
 const cardLink = document.querySelector('.js-cardLink');
+const cardCreated = document.querySelector('.js-cardCreated');

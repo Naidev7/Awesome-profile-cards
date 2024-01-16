@@ -13,6 +13,12 @@ function handlebtnShare(event) {
 		.then((data) => {
 			cardLink.innerHTML = data.cardURL;
 			cardLink.href = data.cardURL;
+			if (data.success == false) {
+				cardCreated.innerHTML =
+					'Uy, parece que falta algo por rellenar';
+				cardLink.innerHTML = '';
+			}
+			console.log(data);
 		});
 }
 btnCreateCard.addEventListener('click', handlebtnShare);
