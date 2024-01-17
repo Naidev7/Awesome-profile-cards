@@ -7,7 +7,7 @@
             flex: 1;
             order: 2;
             width: 329px;
-
+            margin: 30px;
         }
         & .form{
             order: 1;
@@ -19,12 +19,10 @@
 .preview-card {
     height: 80vh;
     background-color: $color-silver;
-    @media (min-width:768px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -33,7 +31,7 @@
     height: 25px;
     border: solid 1px $color-white-two;
     border-radius: 15px;
-    transform: translate(35px, 35px);
+    transform: translate(-85px, 30px);
     padding: 10px;
     padding-bottom: 15px;
     padding-top: 5px;
@@ -44,7 +42,7 @@
     font-family: $font-open;
     cursor: pointer;
     @media (min-width:768px) {
-        transform: translateX(-100px);
+      //  transform: translateX(-100px);
         width: 75px;
         height: 30px;
         font-size: 1.2rem;

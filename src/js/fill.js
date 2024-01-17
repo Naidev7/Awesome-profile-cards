@@ -39,11 +39,17 @@ function printHtml() {
 function dataStorage() {
 	if (localStorage.getItem('name') !== null) {
 		userName.value = localStorage.getItem('name');
+		previewName.innerHTML = userName.value;
 		userPosition.value = localStorage.getItem('job');
+		previewJob.innerHTML = userPosition.value;
 		userEmail.value = localStorage.getItem('email');
+		previewEmail.href = userEmail.value;
 		userPhone.value = localStorage.getItem('phone');
+		previewPhone.href = userPhone.value;
 		userLinkedin.value = localStorage.getItem('linkedin');
+		previewLinkedin.href = userLinkedin.value;
 		userGithub.value = localStorage.getItem('github');
+		previewGithub.href = userGithub.value;
 	}
 }
 dataStorage();
