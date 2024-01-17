@@ -2,15 +2,19 @@
     main{
         height: 80vh;
         display: flex;
-        background:linear-gradient($color-white-four, $color-white-two ) ;
+       background:linear-gradient($color-white-four, $color-white-two ) ;
         & .preview-card{
             flex: 1;
             order: 2;
-            width: 329px;
+            margin: 30px;
+    
+            
+            
 
         }
         & .form{
             order: 1;
+           
         }
     }
 }
@@ -19,6 +23,7 @@
 .preview-card {
     height: 80vh;
     background-color: $color-silver;
+    
     @media (min-width:768px) {
         display: flex;
         flex-direction: column;
@@ -33,7 +38,7 @@
     height: 25px;
     border: solid 1px $color-white-two;
     border-radius: 15px;
-    transform: translate(35px, 35px);
+    transform: translate(-85px, 60px);
     padding: 10px;
     padding-bottom: 15px;
     padding-top: 5px;
@@ -42,9 +47,14 @@
     text-transform: uppercase;
     font-size: 1rem;
     font-family: $font-open;
+    @media (min-width:768px) {
+        transform: translate(10px, -20px);
+     }
+    
+
     cursor: pointer;
     @media (min-width:768px) {
-        transform: translateX(-100px);
+       // transform: translateX(-100px);
         width: 75px;
         height: 30px;
         font-size: 1.2rem;
@@ -59,12 +69,18 @@
   width: 250px;
   height: 350px;
   box-shadow: 0 1px 10px 0 $color-black-20, 0 1px 3px 0 rgba(0, 0, 0, 0.35);
-  margin-top: 50px;
+  margin: 70px;
   border-radius: 2px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (min-width:768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 
