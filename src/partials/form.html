@@ -92,7 +92,6 @@
 				value="profileImg"
 				name="profileImg"
 				accept=".png, .jpg, .jpeg"
-				
 			/>
 			<label for="profileImg" class="fakeBtn">
 				<div class="btn">Añadir imagen</div>
@@ -146,13 +145,17 @@
 			</button>
 			<div class="line"></div>
 			<div class="share__container js-share__container hidden">
-				<h3 class="h3">La tarjeta ha sido creada</h3>
+				<h3 class="h3 js-cardCreated">La tarjeta ha sido creada</h3>
 				<a class="link js-cardLink" href="" target="_blank"></a>
-				
-					 
-					<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twiterBtn" data-show-count="false">Compartir en 
-					<i class="fa-brands fa-x-twitter twiterIcon"></i></a>
-				
+
+				<a
+					href="https://twitter.com/intent/tweet?text="
+					class="twiterBtn js-twitterBtn"
+					data-show-count="false"
+					target="_blank"
+					>Compartir en
+					<i class="fa-brands fa-x-twitter twiterIcon"></i
+				></a>
 			</div>
 		</div>
 	</fieldset>

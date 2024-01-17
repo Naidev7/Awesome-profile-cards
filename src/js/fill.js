@@ -26,9 +26,34 @@ function printHtml() {
 	} else {
 		previewJob.innerHTML = dataForm.job;
 	}
-	localStorage.setItem('user', JSON.stringify(dataForm));
+	// const newStorage = JSON.stringify(dataForm);
+	// localStorage.setItem('user', newStorage);
+	localStorage.setItem('name', userName.value);
+	localStorage.setItem('job', userPosition.value);
+	localStorage.setItem('email', userEmail.value);
+	localStorage.setItem('phone', userPhone.value);
+	localStorage.setItem('linkedin', userLinkedin.value);
+	localStorage.setItem('github', userGithub.value);
+	//localStorage.setItem('photo', previewImg.src);
 }
-
+function dataStorage() {
+	if (localStorage.getItem('name') !== null) {
+		userName.value = localStorage.getItem('name');
+		previewName.innerHTML = userName.value;
+		userPosition.value = localStorage.getItem('job');
+		previewJob.innerHTML = userPosition.value;
+		userEmail.value = localStorage.getItem('email');
+		previewEmail.href = userEmail.value;
+		userPhone.value = localStorage.getItem('phone');
+		previewPhone.href = userPhone.value;
+		userLinkedin.value = localStorage.getItem('linkedin');
+		previewLinkedin.href = userLinkedin.value;
+		userGithub.value = localStorage.getItem('github');
+		previewGithub.href = userGithub.value;
+	}
+}
+dataStorage();
+console.log(dataStorage());
 function handleForm(event) {
 	const inputId = event.target.id;
 	if (event.target.type != 'radio' && event.target.type != 'file') {
