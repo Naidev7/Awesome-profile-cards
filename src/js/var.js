@@ -26,6 +26,10 @@ const colorsContainer = document.querySelector('.js-colors');
 const formContainer = document.querySelector('.js-formContainer');
 const userName = document.querySelector('.js-inputName');
 const userPosition = document.querySelector('.js-inputPosition');
+
+const fkBtn = document.querySelector('.js-fkbtn');
+const popup = document.querySelector('.js.popup');
+
 const userEmail = document.querySelector('.js-inputEmail');
 const userPhone = document.querySelector('.js-inputPhone');
 const userLinkedin = document.querySelector('.js-inputLinkedin');
