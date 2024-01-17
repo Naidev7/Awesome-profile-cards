@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Awesome profile-cards</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+			integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		
+		<link rel="stylesheet" href="./assets/main-dbe2cf1b.css">
+	</head>
+	<body id="design">
+		<header class="header">
+    <a href="../index.html"><img class="header__img" src="./images/logo-awesome-profile-cards.svg" alt="Awesome profile cards logo"></a>
+</header>
+		<main class="main">
+			<section class="preview-card">
+  <button class="reset-text js-reset-botton">
+    <i class="fa-regular fa-trash-can reset-icon"> </i>
+    reset
+  </button>
+  <div class="details-card js-card">
+    <div class="card-text">
+      <h3 class="card-title js-name">Nombre y apellido</h3>
+      <p class="card-job js-position">Front-end developer</p>
+    </div>
+    <img
+      class="card-img js__profile-image"
+      src="https://static.vecteezy.com/system/resources/previews/000/230/130/original/female-web-developer-illustration-vector.jpg"
+      alt="woman-developer"
+    />
+    <ul class="list-icons">
+      <div class="box-icon">
+        <li class="icon">
+          <a href=" " target="_blank" class="icon-link js-phone">
+            <i class="fa-solid fa-mobile-screen-button"> </i>
+          </a>
+        </li>
+      </div>
+      <div class="box-icon">
+        <li class="icon">
+          <a href="" target="_blank" class="icon-link js-email">
+            <i class="fa-regular fa-envelope"> </i>
+          </a>
+        </li>
+      </div>
+      <div class="box-icon">
+        <li class="icon">
+          <a href="www.linkedin.com/in/" target="_blank" class="icon-link js-linkedin">
+            <i class="fa-brands fa-linkedin-in"> </i>
+          </a>
+        </li>
+      </div>
+      <div class="box-icon">
+        <li class="icon">
+          <a href="" target="_blank" class="icon-link js-github">
+            <i class="fa-brands fa-github-alt"> </i>
+          </a>
+        </li>
+      </div>
+    </ul>
+  </div>
+</section>
+
+			<form class="form js-form" method="POST">
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendDesign">
+			<div>
+				<i class="fa-regular fa-object-ungroup icon1"></i>
+				Diseña
+			</div>
+			<div class="arrow arrowUp js-arrow">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="design__colors js-section">
+			<h4 class="design__colors--h4">Colores</h4>
+			<div class="design__colors--radio">
+				<label for="colors1" class="colors js-colors">
+					<input
+						class="design__input js-paletteOne"
+						id="palette1"
+						type="radio"
+						value="opcion1"
+						name="colors"
+						checked
+					/>
+					<div class="palete1">
+						<div class="dark__green"></div>
+						<div class="dirty__blue"></div>
+						<div class="hospital__green"></div>
+					</div>
+				</label>
+				<label for="colors2" class="colors">
+					<input
+						class="design__input js-paletteTwo"
+						id="palette2"
+						type="radio"
+						value="opcion2"
+						name="colors"
+					/>
+					<div class="palete2">
+						<div class="dried__blood"></div>
+						<div class="rusty__red"></div>
+						<div class="tomato"></div>
+					</div>
+				</label>
+				<label for="colors3" class="colors">
+					<input
+						class="design__input js-paletteThree"
+						id="palette3"
+						type="radio"
+						value="opcion3"
+						name="colors"
+					/>
+					<div class="palete3">
+						<div class="slate"></div>
+						<div class="faded__orange"></div>
+						<div class="light-grey-blue"></div>
+					</div>
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendFill">
+			<div><i class="fa-regular fa-keyboard icon1"></i> Rellena</div>
+			<div class="arrow js-arrow2">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="js-formContainer hidden">
+			<label for="name" class="label"> Nombre completo </label>
+			<input
+				class="input js-inputName"
+				id="name"
+				type="text"
+				name="name"
+				placeholder="Ej: Sally Hill"
+				required
+			/>
+			<label for="possition" class="label"> Puesto </label>
+			<input
+				class="input js-inputPosition"
+				id="job"
+				type="text"
+				name="possition"
+				placeholder="Ej: Front-end unicorn"
+				required
+			/>
+			<label for="profileImg" class="label"> Imagen de perfil </label>
+			<input
+				class="input imgInput js__profile-upload-btn"
+				id="profileImg"
+				type="file"
+				value="profileImg"
+				name="profileImg"
+				accept=".png, .jpg, .jpeg"
+			/>
+			<label for="profileImg" class="fakeBtn">
+				<div class="btn">Añadir imagen</div>
+				<span class="tinyImg js__profile-preview"></span>
+			</label>
+			<label for="email" class="label"> Email </label>
+			<input
+				class="input js-inputEmail"
+				id="email"
+				type="email"
+				name="email"
+				placeholder="Ej: sally-hill@gmail.com"
+			/>
+			<label for="phone" class="label"> Teléfono </label>
+			<input
+				class="input js-inputPhone"
+				id="phone"
+				type="tel"
+				name="phone"
+				placeholder="Ej: 555-55-55-55"
+			/>
+			<label for="linkedin" class="label"> LinkedIn </label>
+			<input
+				class="input js-inputLinkedin"
+				id="linkedin"
+				type="text"
+				name="linkedin"
+				placeholder="Ej: sally.hill"
+			/>
+			<label for="github" class="label"> GitHub </label>
+			<input
+				class="input js-inputGithub"
+				id="github"
+				type="text"
+				name="github"
+				placeholder="Ej: @sally-hill"
+			/>
+		</div>
+	</fieldset>
+	<fieldset class="form__section">
+		<legend class="form__section--title js-legendShare">
+			<div><i class="fa-solid fa-share-nodes icon1"></i> Comparte</div>
+			<div class="arrow js-arrow3">
+				<i class="fa-solid fa-chevron-down"></i>
+			</div>
+		</legend>
+		<div class="hidden btnShare js-btnShare">
+			<button class="button js-btnCreateCard">
+				<i class="fa-solid fa-address-card card__icon js-cardsIcon"></i>
+				Crear tarjeta
+			</button>
+			<div class="line"></div>
+			<div class="share__container js-share__container hidden">
+				<h3 class="h3 js-cardCreated">La tarjeta ha sido creada</h3>
+				<a class="link js-cardLink" href="" target="_blank"></a>
+
+				<a
+					href="https://twitter.com/intent/tweet?text="
+					class="twiterBtn js-twitterBtn"
+					data-show-count="false"
+					target="_blank"
+					>Compartir en
+					<i class="fa-brands fa-x-twitter twiterIcon"></i
+				></a>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+		</main>
+		<footer class="footer">
+    <p class="footer__text">Awesome profile-cards ©2018</p>
+    <img class="footer__img" src="./images/logo-adalab.png" alt="Adalab logo">
+</footer>
+		<script src="./js/main.js"></script>
+	</body>
+</html>

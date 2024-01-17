@@ -1,0 +1,266 @@
+//COMÚN
+.form {
+  margin: 3%;
+  @media (min-width:768px) {
+    margin: 6%;
+    
+  }
+  &__section {
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-color: $color-white-two;
+    padding: 27px 0 30px 0;
+    align-items: center;
+    width: 90vw;
+    @media (min-width:768px) {
+      width: 30vw;
+    }
+  }
+  &__section--title {
+    font-family: $font-open;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    color: $color-gunmetal;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 95vw;
+    & .icon1 {
+      color: $color-dull-orange;
+    }
+    & .arrow {
+      text-align: end;
+    } 
+      
+    & .arrowUp {
+      text-align: start;
+      transform: rotate(180deg);
+    }
+      
+    
+    @media (min-width:768px) {
+      width: 40vw;
+    }
+    @media (min-width:1200) {
+      width: 20vw;
+    }
+    
+    
+  }
+}
+
+//DESIGN
+.design__colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-left: 22px;
+  & .design__colors--h4 {
+    font-family: $font-open;
+    font-size: 14px;
+    color: $color-gunmetal;
+    text-transform: uppercase;
+  }
+  & .design__colors--radio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+    width: 17px;
+  }
+  & .colors{
+    display: flex;
+    flex-direction: row;
+    & .palete1{
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+      
+      & .dark__green{
+        background-color:$color-dark-green-blue;
+        width: 30px;
+        height: 25px;
+      }
+      & .dirty__blue{
+        background-color: $color-dirty-blue;
+        width: 30px;
+        height: 25px;
+      }
+      & .hospital__green{
+        background-color: $color-hospital-green;
+        width: 30px;
+        height: 25px;
+      }
+    }
+    & .palete2{
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+      & .dried__blood{
+        background-color:$color-dried-blood;
+        width: 30px;
+        height: 25px;
+      }
+      & .rusty__red{
+        background-color: $color-rusty-red;
+        width: 30px;
+        height: 25px;
+      }
+      & .tomato{
+        background-color:$color-tomato;
+        width: 30px;
+        height: 25px;
+      }
+    }
+    & .palete3{
+      display: flex;
+      flex-direction: row;
+      margin-left: 10px;
+      & .slate{
+        background-color:$color-slate;
+        width: 30px;
+        height: 25px;
+      }
+      & .faded__orange{
+        background-color: $color-faded-orange;
+        width: 30px;
+        height: 25px;
+      }
+      & .light-grey-blue{
+        background-color: $color-light-grey-blue;
+        width: 30px;
+        height: 25px;
+      }
+    }
+    @media (min-width:1200px) {
+      justify-content: space-between;
+    }
+  }
+}
+//FILL
+.label {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-open;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-dark-green-blue;
+  padding-bottom: 7px;
+}
+.input {
+  width: 90vw;
+  height: 30px;
+  border: 1px solid $color-hospital-green;
+  padding-bottom: 10px;
+  &::placeholder {
+    font-size: 14px;
+    font-family: $font-open;
+    width: 137px;
+    color: $color-pinkish-grey;
+    transform: translate(9px, 3px);
+    line-height: 20px;
+  }
+  @media (min-width:768px) {
+    width: 40vw ;
+  }
+}
+.imgInput{
+  display: none;
+}
+.fakeBtn{
+  display: flex;
+  .btn{
+    background-color:$color-dull-orange ;
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.32);
+    color: $color-white-two;
+    font-family: $font-open;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 3px;
+  }
+  .tinyImg{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:solid 1px $color-hospital-green;
+    width: 30px;
+    height: 30px;
+    margin-left:20px  ;
+  }
+}
+//SHARE
+.btnShare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: $color-dull-orange;
+  color: $color-white-two;
+  text-transform: uppercase;
+  font-family: $font-open;
+  font-size: 1.8rem;
+  border: transparent;
+  border-radius: 10px;
+  margin: 18px;
+  padding: 10px 12px;
+  & .card__icon {
+    color: $color-dull-orange;
+    background-color: $color-white-two;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 4px;
+  }
+}
+
+.share__container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  font-family: $font-open;
+  & .h3{
+    font-size: 1.8rem;
+    color: $color-gunmetal;
+  }
+  & .link{
+    color: $color-dull-orange;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  & .twiterBtn{
+    background-color: $color-azure;
+    width: 170px;
+    border: none;
+    height: 30px;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    align-self: center;
+    box-shadow:0 0 4px 0 rgba(0, 0, 0, 0.32); 
+    text-decoration: none;
+    padding-top: 4px;
+  }
+}
+.disableIcon{
+  color: $color-white;
+  background-color:white ;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 4px;
+}
+.disableBtn{
+  background-color: $color-white;
+};
+.hidden{
+  display: none;
+}
