@@ -1,5 +1,13 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+display: flex;
+justify-content: center;
+height: 10vh;
+@media (min-width: 768px) {
+    justify-content: flex-start;
+}
+    &__img {  
+        width: 200px;
+        height: 40px;
+        margin-top: 5px;
+}
 }
