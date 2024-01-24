@@ -6,9 +6,7 @@
     //padding-bottom: 20px;
     //height: 10vh;
     background-color: white; 
-    border-top: solid $color-silver; 
-    //position: sticky;
-    //bottom: 0px;
+    border-top: $color-white-three solid 2px;
 
     @media (min-width: 768px) {
         flex-direction: row;
@@ -17,8 +15,6 @@
         padding-left: 80px;
         padding-right: 40px;
         background-color: white;
-        //position: fixed;
-        //bottom: 0px;
     }
     &__text {
         font-family: $font-open;

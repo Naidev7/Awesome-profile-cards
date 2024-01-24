@@ -1,14 +1,15 @@
 @media (min-width:768px) {
     main{
-        height: 80vh;
+        //height: 80vh;
         display: flex;
         background:linear-gradient($color-white-four, $color-white-two ) ;
         & .preview-card{
             flex: 1;
             order: 2;
             width: 329px;
-            margin-top: 30px;
+            margin-top: 15px;
             margin-right: 30px;
+            margin-bottom: 15px;
             
         }
         & .form{
