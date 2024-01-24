@@ -12,10 +12,8 @@ function handleHiddenDesign(event) {
         btnShare.classList.add('hidden');
         arrow.classList.add('arrowUp');
     }
-
 }
     
-
 legendDesign.addEventListener("click",handleHiddenDesign);
 
 
@@ -36,6 +34,31 @@ function handleHiddenForm(event) {
 }
 
 legendFill.addEventListener("click",handleHiddenForm);
+
+
+// function handleMouseOver(event) {
+//     event.target.style.display = 'block';
+// }
+
+// fkBtn.addEventListener("mouseover", handleMouseOver);
+
+
+// function handleMouseOut(event) {
+//     event.target.style.display = 'none';
+// }
+// fkBtn.addEventListener("mouseout", handleMouseOut);
+
+// fkBtn.addEventListener("mouseover",(event) => {
+//       // highlight the mouseover target
+//       popup.style.display = "block";
+  
+//       setTimeout(() => {
+//         popup.style.display = "none";
+//       }, 500);
+//     },
+//     false,
+//   );
+
 
 function handleHiddenShare(event) {
     if (btnShare.classList.contains('hidden')) {

@@ -16,7 +16,7 @@ function handlebtnShare(event) {
 			twitterBtn.href += `${data.cardURL}`;
 			if (data.success == false) {
 				cardCreated.innerHTML =
-					'Uy, parece que falta algo por rellenar o que la imagen es demasiado grande. Recuerda que solo admite formato jpg., jpeg., o png., y no debe ser mayor de 50 kB.';
+					'Uy, parece que falta algo por rellenar o que la imagen que has seleccionado es demasiado grande. Tamaño máximo: 50 kB. Formatos admitidos: jpg., jpeg. o png.';
 				cardLink.innerHTML = '';
 			}
 			console.log(data);
