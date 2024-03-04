@@ -1,6 +1,9 @@
 # Professional Card Creator
 Welcome to the Professional Card Creator project! This collaborative effort aims to develop a web application using JavaScript, HTML, CSS, and Sass. The goal is to create a platform where users can design professional cards, customize them to reflect their unique style, and share them to enhance their professional presence.
 
+
+<img width="1071" alt="Captura de pantalla 2024-02-25 205232" src="https://github.com/Naidev7/project-promo-v-module-2-team-4/assets/150022253/2ab91667-f6ff-4239-a8d2-b4aa4204fcec">
+
 ## Project Overview
 The Professional Card Creator is designed to empower users to showcase their skills, experience, and personality through visually appealing professional cards. By providing customization options and easy sharing features, we aim to help individuals make a memorable impression in the professional world.
 
