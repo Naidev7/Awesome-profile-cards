@@ -1,28 +1,65 @@
-# Proyecto Awesome profile-cards
+# Professional Card Creator
+Welcome to the Professional Card Creator project! This collaborative effort aims to develop a web application using JavaScript, HTML, CSS, and Sass. The goal is to create a platform where users can design professional cards, customize them to reflect their unique style, and share them to enhance their professional presence.
 
-Este proyecto se centra en la creación de tarjetas profesionales utilizando HTML, CSS y JavaScript. El objetivo es proporcionar a los usuarios una herramienta sencilla y efectiva para diseñar tarjetas de presentación profesionales directamente en el navegador.
+## Project Overview
+The Professional Card Creator is designed to empower users to showcase their skills, experience, and personality through visually appealing professional cards. By providing customization options and easy sharing features, we aim to help individuals make a memorable impression in the professional world.
 
-## Funcionalidades Básicas
+## Features
+Design and customize professional cards with ease.
+Choose from various templates, colors, fonts, and layouts.
+Add personal information, such as name, title, contact details, and social media links.
+Preview and adjust the design in real-time.
+Share the created cards on social media platforms or download them for offline use.
 
-#### Cambio de Colores
+How to Clone and Use
+1. Clone the Repository
+Clone this repository to your local machine using the following command:
 
-    Proporciona tres paletas con una selección diferente de colores para cambiar fácilmente el color del texto y otros elementos de la tarjeta.
+```bash
+git clone https://github.com/your-username/professional-card-creator.git
+```
 
-#### Edición de Texto
+2. Setup and Installation
+Navigate into the cloned directory:
 
-    Visualiza de forma inmediata en la tarjeta el texto que vas introduciendo, como tu nombre, tu puesto de trabajo...
-    Además te permite crear un enlace de forma rápida y sencilla a tus redes sociales profesionales.
+```bash
+cd professional-card-creator
+```
 
-## Funcionalidades Avanzadas
+3. Install dependencies:
 
-#### Guardado local
+```bash
+npm install
+```
 
-    Almacena los datos de la tarjeta en el almacenamiento local del navegador, permitiendo a los usuarios retomar su trabajo más tarde.
+4. Build the Sass files:
 
-#### Creación de URL
+```bash
+npm run build-css
+```
 
-    Crea una URL con tu tarjeta finalizada desde donde podrás descargarla.
+5. Open the index.html file in your preferred web browser to start using the application.
 
-## Licencia
+## Contributions
+Contributions to this project are welcome! Feel free to submit pull requests, suggest new features, or report any issues you encounter.
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+## Acknowledgments
+We want to express our gratitude to all contributors who have dedicated their time and effort to making this project a reality. Your collaboration and support are greatly appreciated.
+
+
+## Authors
+
+- [@Wilanda2](https://github.com/Wilanda2)
+
+- [@naidev7](https://github.com/Naidev7)
+
+- [@teresatoledo](https://github.com/teresatoledo)
+
+- [@minamrc](https://github.com/aminamrc)
+
+
+
+# Thank You
+Thank you for exploring the Professional Card Creator project. We hope you find it useful in creating and sharing your professional identity. If you have any questions or feedback, please don't hesitate to reach out.
+
+Happy card designing and networking! 🌟
