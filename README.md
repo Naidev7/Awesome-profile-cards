@@ -1,4 +1,4 @@
-# Professional Card Creator
+# Awesome Profile Card
 Welcome to the Professional Card Creator project! This collaborative effort aims to develop a web application using JavaScript, HTML, CSS, and Sass. The goal is to create a platform where users can design professional cards, customize them to reflect their unique style, and share them to enhance their professional presence.
 
 
